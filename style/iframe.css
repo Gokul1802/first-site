@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+     height: 100vh;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:1%;
+    left:2%;
+    padding: 0 100px;
+    
+
+}
+
+.container{
+    background: #2d9aee;
+    height: 80px;
+    width:100%;
+}
+.container ul{
+    float:right;
+    margin-right: 20px;
+}
+.container ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+      
+}
+.container ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background:#1c6caa;
+    transition: .5s;
+}
+.store{
+
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+.image-store img{
+    height: 100%;
+    width: 100%;
+}
+.field{
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    border: 1px white;
+    position: relative;
+    
+}
+.col{
+    width:10%;
+    height: 40%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 50px;
+    margin: 10px;
+    background-color:#2d9aee ;
+}
+ button{
+     background: #2d9aee;
+     color: white;
+    border-radius:3px ;
+    position: relative;
+    top:90%;
+ }   
+ .foot{
+    background: #0e0f0f;
+    height: 80px;
+    width:100%;
+ }
+ .foot ul{
+    float:right;
+    margin-right: 50%;
+}
+.foot ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+      
+}

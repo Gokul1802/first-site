@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+
+    
+}
+.centre{
+    position:absolute;
+    top: 40%;
+    left:40%;
+    background: mediumslateblue;
+    border-radius: 1px;
+
+}
+.centre form{
+    padding:40px;
+}
+form .field{
+    position: relative;
+    bottom: 2px solid black;
+    margin: 30px;
+}
